@@ -1,0 +1,118 @@
+/* Basic resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+/* LANDING PAGE */
+.landing-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 30rem;
+}
+
+.landing-page-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  gap: 4rem;
+  padding-top: 20rem;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Login Page */
+.login-page {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+}
+
+.login-page label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-page input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-page .btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Dashboard */
+.dashboard {
+  padding-bottom: 60px; /* Space for bottom nav */
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+.top-bar {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+.bottom-nav a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-size: 16px;
+  text-align: center;
+}
+
+.bottom-nav a:hover {
+  text-decoration: underline;
+}
